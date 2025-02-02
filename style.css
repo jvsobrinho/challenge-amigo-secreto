@@ -160,3 +160,31 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Estilo para o contêiner da lista e contador */
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+/* Estilo do contador de amigos restantes */
+.contador {
+    display: none; /* O contador estará oculto inicialmente */
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--color-text);
+    margin-left: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+/* Exemplo de estilização para a lista */
+.name-list {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    color: var(--color-text);
+    margin: 0;
+}
